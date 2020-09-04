@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:anroid="http://schemas.android.com/apk/res/android"
+    anroid:layout_width="match_parent"
+    anroid:layout_height="match_parent"
+    anroid:id="@+id/RelativeLayout_main"
+
+    >
+    <ImageView
+        anroid:contentDescription="@string/app_name"
+        anroid:id="@+id/Imageview_main"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="match_parent"
+        anroid:scaleType="fitCenter"
+        anroid:adjustViewBounds="true"
+        anroid:background="@null"
+        anroid:src="@drawable/face"
+        anroid:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
